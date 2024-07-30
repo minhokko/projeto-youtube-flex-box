@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(244, 244, 244);
+}
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+i {
+  font-size: 2.7rem;
+}
+
+.logo img {
+  width: 8rem;
+  margin-left: 3rem;
+}
+
+#divBusca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#txtBusca {
+  float: left;
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 1rem;
+  height: 1.9rem;
+  width: 20rem;
+}
+
+#divBusca button i {
+  font-size: 1.9rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.icons i{
+    margin-left: 1rem;
+}
+
+.menu-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+main {
+  display: flex;
+}
+
+main section {
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+
+section{
+    flex-direction: column;
+}
+
+.titulo{
+    margin-top: 1rem;
+}
+
+section iframe {
+  width: 50rem;
+  height: 30rem;
+}
+
+aside {
+    flex-direction: column;
+  }
+
+.aside {
+  display: flex;
+}
+
+.aside iframe {
+  background-color: aqua;
+  width: 10rem;
+  height: 6rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.descricao {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.descricao p {
+  word-wrap: break-word;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.button i {
+    font-size: 3rem;
+}
+.user {
+    display: flex;
+}
+
+.inscrito {
+    margin-left: 0.2rem; 
+}
+
+.inscrito h1{
+    font-size: 1.5rem;
+}
+
+.inscrito p{
+    font-size: 0.7rem;
+}
+
+.inscrever img {
+    width: 8rem;
+    margin-left: 1.5rem;
+}
+
+.like{
+    display: flex;
+    align-items: center;
+}
+
+.like i{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.share{
+    display: flex;
+    align-items: center;
+}
+
+.share i{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+}
+
+.download i{
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+}
+
+.h1{
+    font-size:18px;
+    margin-top: 0.7rem;
+}
+
+.p{
+    font-size: 11px;
+    margin-top: 1rem;
+}
